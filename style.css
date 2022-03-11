@@ -25,7 +25,8 @@
 body {
     padding-left: 30px;
     padding-right: 30px;
-    background-color: var(--primary-color);
+    background-color: #212121;
+    /* background-color: var(--primary-color); */
 }
 
 .navigation ul {
@@ -80,6 +81,7 @@ body {
 }
 
 .buybtn {
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2);
     height: 50px;
     width: 100px;
     border-radius: 8px;
@@ -87,8 +89,9 @@ body {
 }
 
 .buybtn:hover {
+    color: var(--primary-color);
     background-color: var(--background-color);
-    transition: 0.9s;
+    transition: 0.5s;
 }
 
 .intro {
@@ -181,7 +184,7 @@ body {
     margin-top: 80px;
     height: 1px;
     border-width: 0;
-    background-color: var(--primary-color);
+    background-color: #bac6cf;
     margin-bottom: 80px;
 }
 
@@ -219,7 +222,7 @@ body {
 
 .card p {
     color: var(--text-color);
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     /* font-family: 'Smooch Sans', sans-serif; */
 }
 
@@ -301,7 +304,7 @@ body {
 }
 
 .development {
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -317,9 +320,14 @@ body {
 }
 
 .services h3 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     margin: 0px;
+}
+
+.services p {
+    text-align: justify;
+    font-family: serif;
 }
 
 .box {
@@ -357,12 +365,13 @@ body {
 }
 
 .resumemain {
+    overflow: hidden;
     font-size: 15px;
-    padding-top: 20px;
     /* text-align: center; */
     display: flex;
     width: 100%;
     align-self: center;
+    box-shadow: 7px 2px 30px 2px rgb(0 0 0 / 10%);
     justify-content: space-evenly;
 }
 
@@ -467,8 +476,12 @@ body {
     margin-top: 25px;
     margin-bottom: 10px;
     height: 0.5px;
-    background-color: var(--primary-color);
+    background-color: grey;
     border: none;
+}
+
+.education:hover hr {
+    background-color: var(--primary-color);
 }
 
 .personal-card {
@@ -677,6 +690,7 @@ body {
 }
 
 .price-scale p {
+    font-size: 18px;
     padding-top: 13px;
 }
 
