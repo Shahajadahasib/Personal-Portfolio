@@ -120,17 +120,28 @@ body {
 
 .welcome h6 {
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 100;
     letter-spacing: .2rem;
 }
 
 .welcome h2 {
+    margin: 0px;
     letter-spacing: 0.1rem;
     font-size: 45px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
-    ;
+}
+
+.welcome span {
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+    color: red;
+}
+
+.welcome h4 {
+    font-family: monospace;
+    font-size: 26px;
 }
 
 .welcome p {
