@@ -349,7 +349,7 @@ body {
     font-size: 14px;
 }
 
-.development i {
+.development .div i {
     color: #868e99;
 }
 
@@ -873,6 +873,7 @@ body {
 }
 
 .contact-card-image img {
+    /* object-fit: cover; */
     width: 100%;
     /* height: 100%; */
     border-radius: 15px;
@@ -1029,3 +1030,42 @@ body {
 .navigation button:hover a {
     color: red;
 }
+
+
+/* 
+.cursor-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 1rem;
+    background: #e38528;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.cursor-1.active {
+    height: 7rem;
+    width: 7rem;
+    opacity: .3;
+}
+
+.cursor-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 4rem;
+    border: 1rem solid #e38528;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+    transition: .3s linear;
+}
+
+.cursor-2.active {
+    display: none;
+} */
