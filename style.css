@@ -540,6 +540,7 @@ body {
 } */
 
 .personalcard-img img {
+    object-fit: cover;
     display: block;
     transition: transform 0.4s;
     width: 100%;
@@ -628,7 +629,7 @@ body {
 
 .program-name {
     position: sticky;
-    top: 0;
+    top: 80;
     border-radius: 10px;
     width: fit-content;
     height: fit-content;
