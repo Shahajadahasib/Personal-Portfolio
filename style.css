@@ -164,9 +164,10 @@ body {
 }
 
 .welcome p {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.09rem;
     line-height: 2rem;
+    
 }
 
 .skill {
