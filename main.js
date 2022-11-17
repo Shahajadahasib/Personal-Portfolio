@@ -270,4 +270,20 @@ function WordShuffler(holder,opt){
       pText.restart();
       buttonText.restart();
     });
-  
+    
+
+
+
+
+
+    $(function() {
+      $('#thumbnails img').click(function() {
+            $('#thumbnails').hide();
+            var src = $(this).attr('src').replace('.png', 'Large.png');
+            $('#largeImage').attr('src', src).show();
+      });
+      $('#largeImage').hide().click(function() {
+            $(this).hide();
+            $('#thumbnails').show();
+      });
+});
