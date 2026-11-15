@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shahajadahasib.github.io/Personal-Portfolio/sitemap.xml
+Sitemap: https://shahajadahasib.github.io/sitemap.xml

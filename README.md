@@ -25,7 +25,7 @@ Then open http://localhost:8000.
 The site is static, so any static host works.
 
 **GitHub Pages:** repository Settings → Pages → Source "Deploy from a branch" → `master` / root.
-The site is then served at `https://shahajadahasib.github.io/Personal-Portfolio/`.
+The site is then served at `https://shahajadahasib.github.io/`.
 
 If you deploy to a different address (a custom domain, Netlify, Vercel), update that URL in
 `index.html` (canonical, Open Graph and JSON-LD tags), `robots.txt` and `sitemap.xml`.
